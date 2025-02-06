@@ -105,3 +105,36 @@
   text-align: right;
   font-weight: bold;
 }
+
+.cta-wrapper {
+  padding-block: 50px;
+}
+
+.cta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3882f6;
+  color: #f9faf8;
+  max-width: 1000px;
+  margin-inline: auto;
+  padding: 25px 100px;
+  border-radius: 8px;
+}
+
+.cta p:nth-child(1) {
+  font-weight: bold;
+}
+
+.cta p:nth-child(2) {
+  color: #e5e7eb;
+}
+
+.cta a {
+  background: #3882f6;
+  color: #f9faf8;
+  text-decoration: none;
+  padding: 8px 24px;
+  border-radius: 8px;
+  border: 2px solid #f9faf8;
+}
